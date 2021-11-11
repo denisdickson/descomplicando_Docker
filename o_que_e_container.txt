@@ -1,0 +1,9 @@
+Container 
+
+Isolamento lógico, processos e usuários, mountpoint. container não conseguem acessar processos de outros 
+    Isolamento da rede 
+Isolamento de recursos, cpu, memórias,  i/o de rede ou de blocos, somente para um container. 
+
+Isolamento na parte lógica é realizado pelos namespaces, na parte física temos o Cgroups 
+
+Container é forma de fazer Isolamento de recursos lógicos e físicos.
