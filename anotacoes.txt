@@ -7,3 +7,6 @@ Isolamento de recursos, cpu, memórias,  i/o de rede ou de blocos, somente para 
 Isolamento na parte lógica é realizado pelos namespaces, na parte física temos o Cgroups 
 
 Container é forma de fazer Isolamento de recursos lógicos e físicos.
+
+
+Docker 
