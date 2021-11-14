@@ -10,3 +10,8 @@ Container é forma de fazer Isolamento de recursos lógicos e físicos.
 
 
 Docker 
+começou em 2013, baseado em lxc , dotcloud -> abriu core de vários projetos com containers para 
+comunidade
+
+Imagem de container - tem várias camadas, criada por várias instruções;
+somente a ultima camada pode ser escrita, nas camadas inferiores é somente permitido leitura

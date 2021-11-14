@@ -1,0 +1,37 @@
+docker ps - shows all containers
+
+docker container ls - list containers
+
+docker container ls -a - list all containers including exited ones
+
+docker container run -ti ubuntu
+    ti - terminal e interatividade
+    exit no bash, mata o container por ser o principal container
+
+
+reconectar no container = docker container attach <container id ou nome do container>
+
+docker start -i <id_container> - inicia o container
+
+docker container run -d nginx
+    -d executa container como deamon 
+    processo deamon não roda em primeiro plano, apenas pra executar, não precisa ter interatividade
+
+docker container exec -ti <id_container> <comando> --> executa apenas comando no container não entrando no 
+    processo principal.
+
+
+docker container start <id_container>
+docker container stop <id_container>
+docker container restart <id_container>
+
+docker container [un]pause <id_container> 
+
+
+
+docker container inspect <id_container> : retorna informaçoes sobre container
+
+
+
+
+
