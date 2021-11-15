@@ -32,6 +32,4 @@ docker container [un]pause <id_container>
 docker container inspect <id_container> : retorna informaçoes sobre container
 
 
-
-
-
+docker container rm <id_container>
