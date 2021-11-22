@@ -4,7 +4,7 @@ docker container ls - list containers
 
 docker container ls -a - list all containers including exited ones
 
-docker container run -ti ubuntu
+docker container run -ti ubuntu   
     ti - terminal e interatividade
     exit no bash, mata o container por ser o principal container
 
